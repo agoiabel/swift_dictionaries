@@ -24,6 +24,9 @@ my_dictionary.removeValue(forKey: "05")
 //view the whole item in the dictionary
 my_dictionary
 
+//getting a non-existence value in a dictionary will return nill
+var orLandoAirport = my_dictionary["08"]
+
 
 
 
